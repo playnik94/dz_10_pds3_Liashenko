@@ -25,3 +25,4 @@ class SecondClass():
 
 b = SecondClass(6, 2)
 print(b.show())
+print('test 2')
