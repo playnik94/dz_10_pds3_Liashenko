@@ -14,3 +14,14 @@ class NewClass():
 
 C = NewClass(25, 35)
 print(C.prints())
+
+class SecondClass():
+    def __init__(self, x, y):
+        self.x = x
+        self.y = y
+
+    def show(self):
+        return self.x - self.y * self.y
+
+b = SecondClass(6, 2)
+print(b.show())
